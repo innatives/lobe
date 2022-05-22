@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 from lobe import ImageModel
+pip install streamlit
+streamlit hello
 
 model = ImageModel.load('path/to/exported/model')
 
