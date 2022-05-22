@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 from lobe import ImageModel
-pip install streamlit
-streamlit hello
+import streamlit as st
+st.title('Uber pickups in NYC')
+
 
 model = ImageModel.load('path/to/exported/model')
 
